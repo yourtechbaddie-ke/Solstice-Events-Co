@@ -1,0 +1,9 @@
+{
+  "name": "solstice-events-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solstice Events Co. asynchronous conference check-in MVP with verified badge-print webhooks.",
+  "type": "module",
+  "scripts": {"start": "node src/server.js", "test": "node --test"},
+  "dependencies": {"better-sqlite3": "^11.7.0", "express": "^4.21.2"}
+}
